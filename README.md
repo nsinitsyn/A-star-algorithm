@@ -1,17 +1,17 @@
 # A* search algorithm
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
-A* search algorithm implementation for maps.
-Algorithm details: https://ru.wikipedia.org/wiki/A*
+A* search algorithm implementation for maps.  
+Algorithm details: https://wikipedia.org/wiki/A*_search_algorithm
 
 ## Usage
 
-Just call static method `AStarWorker.Start(field, rowsAmount, columnsAmount, startPoint, finishPoint)` where:
-`field` - two-dimensional array of 0 and 1 where 0 - cage is passable, 1 - cage isn't passable
-`rowsAmount` - amount of rows of field array
-`columnsAmount` - amount of columns of field array
-`startPoint` - starting point of search 
-`finishPoint` - search endpoint 
+Call static method `AStarWorker.Start(field, rowsAmount, columnsAmount, startPoint, finishPoint)` where:  
+`field` - two-dimensional array of 0 and 1 where 0 - cage is passable, 1 - cage isn't passable  
+`rowsAmount` - amount of rows of field array  
+`columnsAmount` - amount of columns of field array  
+`startPoint` - starting point of search   
+`finishPoint` - search endpoint   
 
 ```csharp
 [Test]
