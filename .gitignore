@@ -1,8 +1,8 @@
-/.vs
-/packages
-/.axoCover
-/AStar.Core/bin
-/AStar.Core/obj
-/AStar.Core/*.user
-/AStar.Tests/bin
-/AStar.Tests/obj
+/src/.vs
+/src/packages
+/src/.axoCover
+/src/AStar.Core/bin
+/src/AStar.Core/obj
+/src/AStar.Core/*.user
+/src/AStar.Tests/bin
+/src/AStar.Tests/obj
