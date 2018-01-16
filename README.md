@@ -6,7 +6,7 @@ Algorithm details: https://wikipedia.org/wiki/A*_search_algorithm
 
 ## Usage
 
-Just call static method `AStarWorker.Start(field, rowsAmount, columnsAmount, startPoint, finishPoint)` where:  
+Call static method `AStarWorker.Start(field, rowsAmount, columnsAmount, startPoint, finishPoint)` where:  
 `field` - two-dimensional array of 0 and 1 where 0 - cage is passable, 1 - cage isn't passable  
 `rowsAmount` - amount of rows of field array  
 `columnsAmount` - amount of columns of field array  
