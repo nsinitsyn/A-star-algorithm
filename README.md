@@ -6,12 +6,12 @@ Algorithm details: https://ru.wikipedia.org/wiki/A*
 
 ## Usage
 
-Just call static method `AStarWorker.Start(field, rowsAmount, columnsAmount, startPoint, finishPoint)` where:
-`field` - two-dimensional array of 0 and 1 where 0 - cage is passable, 1 - cage isn't passable
-`rowsAmount` - amount of rows of field array
-`columnsAmount` - amount of columns of field array
-`startPoint` - starting point of search 
-`finishPoint` - search endpoint 
+Just call static method `AStarWorker.Start(field, rowsAmount, columnsAmount, startPoint, finishPoint)` where:  
+`field` - two-dimensional array of 0 and 1 where 0 - cage is passable, 1 - cage isn't passable  
+`rowsAmount` - amount of rows of field array  
+`columnsAmount` - amount of columns of field array  
+`startPoint` - starting point of search   
+`finishPoint` - search endpoint   
 
 ```csharp
 [Test]
