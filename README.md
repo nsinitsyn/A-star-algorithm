@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 A* search algorithm implementation for maps.  
-Algorithm details: https://ru.wikipedia.org/wiki/A*
+Algorithm details: https://wikipedia.org/wiki/A*_search_algorithm
 
 ## Usage
 
